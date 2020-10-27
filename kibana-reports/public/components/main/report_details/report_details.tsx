@@ -311,7 +311,7 @@ export function ReportDetails(props) {
               reportDetailsComponentContent={reportDetails['state']}
             />
           </EuiFlexGroup>
-          <EuiSpacer />
+          {/* <EuiSpacer />
           <EuiFlexGroup>
             <ReportDetailsComponent
               reportDetailsComponentTitle={'Report header'}
@@ -327,7 +327,7 @@ export function ReportDetails(props) {
             />
             <ReportDetailsComponent />
             <ReportDetailsComponent />
-          </EuiFlexGroup>
+          </EuiFlexGroup> */}
           <EuiSpacer />
           <EuiTitle>
             <h3>Report trigger</h3>
@@ -348,7 +348,7 @@ export function ReportDetails(props) {
             />
             <ReportDetailsComponent />
           </EuiFlexGroup>
-          <EuiSpacer />
+          {/* <EuiSpacer />
           <EuiTitle>
             <h3>Notification settings</h3>
           </EuiTitle>
@@ -371,7 +371,7 @@ export function ReportDetails(props) {
               )}
             />
             <ReportDetailsComponent />
-          </EuiFlexGroup>
+          </EuiFlexGroup> */}
         </EuiPageContent>
         <EuiGlobalToastList
           toasts={toasts}

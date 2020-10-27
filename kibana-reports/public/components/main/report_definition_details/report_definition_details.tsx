@@ -548,7 +548,7 @@ export function ReportDefinitionDetails(props) {
             />
             <EuiFlexItem />
           </EuiFlexGroup>
-          <EuiSpacer />
+          {/* <EuiSpacer />
           <EuiFlexGroup>
             <ReportDetailsComponent
               reportDetailsComponentTitle={'Report header'}
@@ -564,7 +564,7 @@ export function ReportDefinitionDetails(props) {
             />
             <EuiFlexItem />
             <EuiFlexItem />
-          </EuiFlexGroup>
+          </EuiFlexGroup> */}
           <EuiSpacer />
           <EuiTitle>
             <h3>Report trigger</h3>
@@ -572,7 +572,7 @@ export function ReportDefinitionDetails(props) {
           <EuiSpacer />
           {triggerSection}
           <EuiSpacer />
-          <EuiTitle>
+          {/* <EuiTitle>
             <h3>Notification settings</h3>
           </EuiTitle>
           <EuiSpacer />
@@ -596,7 +596,7 @@ export function ReportDefinitionDetails(props) {
               )}
             />
             <ReportDetailsComponent />
-          </EuiFlexGroup>
+          </EuiFlexGroup> */}
         </EuiPageContent>
         <EuiGlobalToastList
           toasts={toasts}
